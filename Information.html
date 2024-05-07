@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 1170px;
+        margin: auto;
+    }
+    body{
+        margin: 0;
+    }
+
+    .container::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .float{
+        float: left;
+        cursor: pointer;
+    }
+    .bg-img{
+            height: 300px;
+            background-image: url(images/Grass.jpg);
+            background-attachment: fixed;
+            line-height: 500px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            letter-spacing: 5px;
+        }
+       
+        a{
+            display:none; width:300px;
+        }
+
+</style>
+<body>
+    
+    <div class="bg-img">
+        園區資訊
+    </div>
+    <div class="container">
+        <div class="float">
+            <ul>
+                <li>訂房資訊</li>
+                <a href="#">房型介紹</a>
+                <a href="#">訂房系統</a>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

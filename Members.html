@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>果茶莊園|會員登入</title>
+    <script src="Member.js"></script>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 1170px;
+        margin: auto;
+    }
+
+    .container::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        color: rgb(122, 204, 122);
+    }
+    form::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    input[type="email"],input[type="password"] {
+        font-size: 22px;
+        width: 80%;
+        padding: 10px 8px;
+        border: 2px solid lightgray;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+
+
+    input[type="submit"] {
+        border: none;
+        background-color: orange;
+        padding: 5px;
+        width: 80%;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        color: white;
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: rgb(240, 160, 13);
+    }
+   .Login-Box{
+    width: 50%;
+    padding: 50px;
+    border: 2px solid rgb(191, 184, 184);
+    margin: 0 auto;
+
+   }
+   input[type="button"]{
+    border: none;
+    background-color:lightgray;
+    padding: 5px;
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+   }
+   input[type="button"]:hover{
+    background-color: rgb(132, 132, 132);
+   }
+</style>
+
+<body>
+    <div class="container">
+        <h2>會員專區</h2>
+        <div class="Login-Box">
+            <form id="Login" name="Login-Form" action="" method="post" class="login-F">
+                <h3>會員登入<span>SIGN IN</span></h3>
+
+                    <input type="email" id="login_id" name="login_id" class="form-control  email"   value=""
+                        placeholder="請輸入您的e-mail信箱" required >
+                <br>
+                    <input type="password" id="login_password" name="login_password"  minlength="8" maxlength="20"  pattern="^(?=.*\d)(?=.*[a-zA-Z]).{8,30}$" class="form-control " 
+                         placeholder="請輸入8-20個字元內的密碼" required> 
+                <br>
+                <input id="btnsub"  type="submit" value="會員登入" >
+                <br>
+                <label class="input"><input type="button" value="加入會員" onclick="join()"></label>
+
+
+
+
+
+
+
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
