@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+form::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.loginbox {
+width: 35%;
+padding: 50px;
+border: 2px solid hsla(0, 0%, 85%, 1);
+margin: 0 auto;
+}
+
+input[type="email"],input[type="password"] {
+font-size: 22px;
+width: 120%;
+padding: 10px 8px;
+border: 2px solid lightgray;
+border-radius: 4px;
+margin-bottom: 20px;
+cursor: pointer;
+}
+button[type="submit"] {
+border: none;
+background-color: orange;
+padding: 5px;
+width: 80%;
+border-radius: 4px;
+margin-bottom: 20px;
+color: white;
+cursor: pointer;
+font-size: 30px;
+}
+button[type="submit"]:hover{
+    background-color: rgb(240, 160, 13);
+    
+}
+.loginbox h3 span {
+display: block;
+font-size: 14px;
+text-transform: uppercase;
+color: #999;
+font-weight: 200;
+}
+button[type="button"]{
+border: none;
+background-color:lightgray;
+padding: 5px;
+width: 80%;
+border-radius: 4px;
+margin-bottom: 20px;
+color: white;
+cursor: pointer;
+font-size: 30px;
+
+}
+button[type="button"]:hover{
+background-color: rgb(132, 132, 132);
+}

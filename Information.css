@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.bg-img{
+        height: 200px;
+        background-image: url(images/Grass.jpg);
+        background-attachment: fixed;
+        line-height: 200px;
+        text-align: center;
+        color: white;
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .tea{
+        color: 	#2E8B57;
+    }
+
+   .carousel-inner > .carousel-item > img{
+    height: 500px;
+   }
