@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-form::after{
+/* form::after{
     content: "";
     display: table;
     clear: both;
-}
+} */
 .loginbox {
 width: 35%;
 padding: 50px;

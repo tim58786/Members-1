@@ -1,6 +1,6 @@
 
 function join(){
-    window.location.href="Members join-1.html";
+    window.location.href="Members join.html";
 }
 
 // function Password(password) {
