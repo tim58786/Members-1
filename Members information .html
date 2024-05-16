@@ -9,7 +9,7 @@
         <script src="Member.js"></script>
 </head>
 <style>
-    *{
+    /* *{
         box-sizing: border-box;
     }
 
@@ -17,16 +17,20 @@
         content: "";
         display: table;
         clear: both;
+    } */
+    .mb-box{
+        width: 50%;
+        padding:108px;
+        border: 2px solid hsla(0, 0%, 85%, 1);
+        margin: 0 auto;
+        background-color: white;
     }
-    
-
-
-
 </style>
 <body>
     <div class="container-md">
-        <h3 class="text-center">會員資料</h3>
-        <dl class="row ">
+        <div class="mb-box">
+            <h3 class="text-center">會員資料</h3>
+        <dl class="row">
             <dt class=" col-md-2  fs-4">
                 姓名
             </dt>
@@ -53,7 +57,10 @@
             </dd>
 
         </dl>
+        
 
+        </div>
+        
     </div>
     
         

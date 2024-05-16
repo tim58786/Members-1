@@ -2,27 +2,37 @@
     box-sizing: border-box;
 }
 
-form::after{
+/* form::after{
     content: "";
     display: table;
     clear: both;
-}
-.loginbox {
+} */
+.joinbox {
 width: 48%;
 padding: 108px;
 border: 2px solid hsla(0, 0%, 85%, 1);
 margin: 0 auto;
 }
 
-input[type="email"],input[type="password"],input[type="tel"],input[type=text] {
+/* input[type="email"],input[type="password"],input[type="tel"],input[type=text] {
 font-size: 22px;
 width: 143%;
 padding: 10px 8px;
 border: 2px solid lightgray;
 border-radius: 4px;
 margin-bottom: 20px;
+} */
+.f-name,.f-id,.f-tel,.f-address,.f-pass{
+    font-size: 22px;
+width: 143%;
+padding: 10px 8px;
+border: 2px solid lightgray;
+border-radius: 4px;
+margin-bottom: 20px;
 }
-button[type="submit"] {
+
+
+/* button[type="submit"] {
 border: none;
 background-color: orange;
 padding: 5px;
@@ -32,11 +42,30 @@ margin-bottom: 20px;
 color: white;
 cursor: pointer;
 font-size: 30px;
+} */
+
+.btn-join{
+
+    border: none;
+    background-color: orange;
+    padding: 5px;
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
 }
-button[type="submit"]:hover{
+
+.btn-join:hover{
     background-color: rgb(240, 160, 13);
 }
-.loginbox h3 span {
+
+
+/* button[type="submit"]:hover{
+    background-color: rgb(240, 160, 13);
+} */
+.joinbox h3 span {
 display: block;
 font-size: 14px;
 text-transform: uppercase;
