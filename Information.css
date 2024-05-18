@@ -22,4 +22,13 @@
     height: 500px;
     
    }
+   .list-group-item{
+    height: 100px;
+   }
+   .content:hover{
+    transition: transform 0.2s;
+    transform: scale(1.2);
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+
+   }
    
