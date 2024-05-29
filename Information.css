@@ -26,9 +26,17 @@
     height: 100px;
    }
    .content:hover{
-    transition: transform 0.2s;
+    transition: transform 0.2s ease;
     transform: scale(1.2);
-    box-shadow: 5px 6px 6px 2px #e9ecef;
+    box-shadow: 10px 6px 6px 5px #e9ecef00;
 
+   }
+   .card{
+    /* background-color: #e0eed882; */
+    /* background-color: #d3f9bcfa; */
+    background-color: #95d07f;
+   }
+   .c-body{
+    float: right;
    }
    
